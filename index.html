@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <a class="logo">ЗДЕСЬ ЛОГОТИП</a>
+    <nav class="topnav">
+      <a class="topnav-item active">
+        <img src="./img/home_alt_outline.svg" alt="">ГЛАВНАЯ
+      </a>
+      <a class="topnav-item" href="./repair.html">
+        <img src="./img/settings_future.svg" alt="">РЕМОНТ
+      </a>
+      <a class="topnav-item" href="./price.html">
+        <img src="./img/color.svg" alt="">ПРАЙС ЛИСТ
+      </a>
+      <a class="topnav-item" href="./contacts.html">
+        <img src="./img/location_outline.svg" alt="">КОНТАКТЫ
+      </a>
+    </nav>
+    <div class="dropdown-btn" id="dropdown-btn" onclick="openNav()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="dpd-bg" id="dpd">
+      <div class="dropdown" id="dropdown">
+      <div class="dropdown-content" id="dropdown-content">
+        <li id="link"><a class="active" href="#" onclick="openNav()"><img src="./img/home_alt_outline.svg" alt=""> ГЛАВНАЯ</a></li>
+        <li id="link"><a href="./repair.html" onclick="openNav()"><img src="./img/settings_future.svg" alt=""> РЕМОНТ</a></li>
+        <li id="link"><a href="./price.html" onclick="openNav()"><img src="./img/color.svg" alt=""> ПРАЙС ЛИСТ</a></li>
+        <li id="link"><a href="./contacts.html" onclick="openNav()"><img src="./img/location_outline.svg" alt=""> КОНТАКТЫ</a></li>
+        <div class="phone">
+          <a class="phone-number" href="tel:+79280000000">+7 (928) 000-00-00</a>
+          <p class="phone-descr">с 8:00 до 19:00</p>
+        </div>
+        <button class="call">ЗАКАЗАТЬ ЗВОНОК</button>
+      </div>
+  </div>
+</div>
+    <div class="phone">
+      <a class="phone-number" href="tel:+79280000000">+7 (928) 000-00-00</a>
+      <p class="phone-descr">с 8:00 до 19:00</p>
+    </div>
+    <button class="call">ЗАКАЗАТЬ ЗВОНОК</button>
+  </header>
+  <div class="main">
+    <div class="main-cont">
+      <h1>КАПИТАЛЬНЫЙ РЕМОНТ ПОД КЛЮЧ<br>ОТ 8000 РУБ. ЗА КВ.М.</h1>
+      <p class="main-descr">*цена за кв.м. в зависимости от площади и состава работ</p>
+      <div class="btn-descr">
+        <div class="shadow"><button class="main-btn">ВЫЗВАТЬ СМЕТЧИКА <img src="./img/Vector.svg" alt=""></button></div>
+        <p class="descr">Заказать выезд дизайнера-замерщика на объект<br><span><b>БЕСПЛАТНО</b></span> если ремонт закажете у нас!</p>
+      </div>
+    </div>
+  </div>
+  <div class="repair">
+    <div class="cont-repair">
+      <div class="repair-cont">
+        <h4>РЕМОНТ КВАРТИР В МАХАЧКАЛЕ<br>ОТ КОМПАНИИ <span>СТК АЗИМУТ</span></h4>
+        <p>Предлагаем услуги по ремонту и отделке в Махачкале. Ремонтируем простые и сложные объекты: 
+          квартиры, частные дома, коммерческие помещения.<br>Можем сделать доступный косметический ремонт, капитальный ремонт со сложными техническими 
+          работами, а также евроремонт по уникальному дизайн-проекту.</p>
+        <ul>
+          <li>Экономим ваше время: устанавливаем сроки ремонта и строго их соблюдаем;</li>
+          <li>Экономим ваше деньги: закупаем материалы по выгодным ценам;</ol>
+          <li>Экономим ваши нервы: оформляем договор и предоставляем гарантию на работы.</ol>
+        </ul>
+        <p>«СТК АЗИМУТ» — это ремонт, который завершается в срок. Смета, которая не меняется.<br>Клиенты, которые всегда довольны.</p>
+      </div>
+      <div class="repair-secondcont">
+        <a href="./repair.html" class="repair-btn">ПОДРОБНЕЕ</a>
+      </div>
+    </div>
+    <div class="panel">
+      <div class="panel-item">
+        <img src="./img/project.svg" alt="">Индивидуальный<br>проект
+      </div>
+      <div class="vl"></div>
+      <div class="panel-item">
+        <img src="./img/garant.svg" alt="">Качественное<br>выполнение работ
+      </div>
+      <div class="vl"></div>
+      <div class="panel-item">
+        <img src="./img/rub.svg" alt="">Цены ниже<br>рыночных
+      </div>
+      <div class="vl"></div>
+      <div class="panel-item">
+        <img src="./img/dogovor.svg" alt="">Официальный<br>договор
+      </div>
+    </div>
+  </div>
+  <div class="repair-img">
+    <div class="repair-img-cont">
+      <h2>ХОРОШИЙ РЕМОНТ - ЭТО РЕАЛЬНОСТЬ</h2>
+      <p class="repair-text">Мы занимаемся ремонтом с 2009 года. Вы можете доверить нам любое помещение и ремонт любой<br>сложности. Мы делаем ремонт предсказуемым, экономным и комфортным, потому что любим свою работу,<br>свой город и наших клиентов.</p>
+    </div>
+  </div>
+  <div class="calc">
+    <div class="calc-cont">
+      <h2>РАСЧЕТ СТОИМОСТИ РЕМОНТА</h2>
+      <p class="calc-text">Большинство компаний на своих сайтах занижают стоимость ремонта, чтобы приехать к вам и предложить стоимость в 2-3 раза больше или увеличивают стоимость во время ремонта. Мы не обманываем наших клиентов и сразу объявляем честную цену.</p>
+      <a href="./price.html" class="calc-btn">ПРАЙС ЛИСТ</a>
+      <div class="cards">
+        <div class="card">
+          <div><img src="./img/tel.svg" alt=""></div>
+          <div>
+            <h4>Расчет по телефону</h4>
+            <p class="card-text">Проконсультироваться и узнать примерную цену по телефону.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div><img src="./img/master.svg" alt=""></div>
+          <div>
+            <h4>Вызов специалиста</h4>
+            <p class="card-text">Вызвать специалиста для консультации и расчета точной стоимости  ремонта на месте.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div><img src="./img/raschet.svg" alt=""></div>
+          <div>
+            <h4>Расчет по дизайн проекту</h4>
+            <p class="card-text">Расчет по вашему готовому дизайн проекту.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="projects">
+      <div class="title">
+        <h3>ПРОЕКТЫ</h3>
+        <h4>сделанные с умом</h4>
+      </div>
+      <div class="imgs">
+        <img src="./img/Rectangle 18.jpg" alt="">
+        <img src="./img/Rectangle 19.jpg" alt="">
+        <img src="./img/Rectangle 20.jpg" alt="">
+        <img src="./img/Rectangle 21.jpg" alt="">
+        <img src="./img/Rectangle 22.jpg" alt="">
+      </div>
+  </div>
+  <div class="questions">
+    <div class="ques-cont">
+      <div class="time">
+        <div class="time-cont">
+          <img src="./img/svgviewer-output.svg" alt="">
+          <div>
+            <h2>Сэкономим вам время</h2>
+            <p>Мы перезвоним в течение <span>30 минут</span> и ответим на все ваши вопросы.</p>
+          </div>
+        </div>
+        <div class="time-contain">
+          <p class="time-text">Ваш номер телефона*</p>
+          <div class="time-form">
+            <input class="tel-input" type="tel" name="" id="" placeholder="+ 7 (928) 00-000-00">
+            <button class="time-btn">БЫСТРАЯ КОНСУЛЬТАЦИЯ</button>
+          </div>
+          <p class="time-descr">Нажимая “Узнать точную стоимость”, вы соглашаетесь на обработку персональных данных</p>
+        </div>
+      </div>
+      <div class="container">
+        <h2>Часто задаваемые вопросы</h2>
+        <h4>Если же у вас еще остались сомнения, то мы подготовили ответы на самые популярные вопросы:</h4>
+        <div class="acor-container">          
+    
+          <input type="checkbox" name="chacor" id="chacor1" />
+          <label for="chacor1">Как скоро можно приступить к ремонту?</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+          
+          <input type="checkbox" name="chacor" id="chacor2" />
+          <label for="chacor2">Делаете ли вы частичный вид работы? Нам нужно сделать ремонт в одной комнате.</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+          
+          <input type="checkbox" name="chacor" id="chacor3" />
+          <label for="chacor3">От чего зависит цена ремонта за 1 кв/м.? У вас написано, что она начинается от 8000 рублей.</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+
+          <input type="checkbox" name="chacor" id="chacor4" />
+          <label for="chacor4">Входят ли в стоимость материалы?</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+          
+          <input type="checkbox" name="chacor" id="chacor5" />
+          <label for="chacor5">Меня не будет дома во время ремонта. Сможете ли Вы присылать фотоотчеты проделанной работы?</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+          
+          <input type="checkbox" name="chacor" id="chacor6" />
+          <label for="chacor6">Можете ли вы посчитать смету по моему дизайн-проекту?</label>
+          <div class="acor-body">
+              <p>Описание вкладки</p>
+          </div>
+       
+      </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="modal-form">
+        <p>Ваше имя</p>
+        <input class="name-input" type="text" name="" id="" placeholder="Имя">
+        <p>Номер телефона</p>
+        <input class="tel-input send-input" type="tel" name="" id="" placeholder="+ 7 (928) 00-000-00">
+        <p>Ваше сообщение</p>
+          <textarea class="message-input" name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+        <button type="submit" class="send-button">ОТПРАВИТЬ</button>
+      </div>
+      <div class="close">&times;</div>
+    </div>
+  </div>
+  <div class="write">
+    <h3>Остались вопросы? Задайте их сейчас, позвонив по телефону </h3>
+    <a class="write-tel" href="tel:+">+ 7 (928) 000-00-00</a>
+    <h4>или через форму обратной связи</h4>
+    <button class="write-btn" id="btn">НАПИСАТЬ НАМ</button>
+  </div>
+  <footer>
+    <div class="footer-cont">
+      <a class="logo">ЗДЕСЬ ЛОГОТИП</a>
+      <div class="footer-item">
+        <img src="./img/mail.svg" alt="">
+        <a href="mailto:stk-azimut@mail.ru">stk-azimut@mail.ru</a>
+      </div>
+      <div class="footer-item">
+        <img src="./img/mobile_alt.svg" alt="">
+        <a href="tel:+79280000000">+7 (928) 00-000-00</a>
+      </div>
+      <div class="footer-item">
+        <p>Мы в социальных сетях:</p>
+        <a href="http://youtube.com" target="_blank" rel="noopener noreferrer"><img src="./img/youtube.svg" alt=""></a>
+        <a href="http://facebook.com" target="_blank" rel="noopener noreferrer"><img src="./img/facebook.svg" alt=""></a>
+        <a href="http://instagram.com" target="_blank" rel="noopener noreferrer"><img src="./img/instagram.svg" alt=""></a>
+        <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"><img src="./img/twitter.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>

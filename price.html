@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <a href="./index.html" class="logo">ЗДЕСЬ ЛОГОТИП</a>
+    <nav class="topnav">
+      <a class="topnav-item"  href="./index.html">
+        <img src="./img/home_alt_outline.svg" alt="">ГЛАВНАЯ
+      </a>
+      <a class="topnav-item" href="./repair.html">
+        <img src="./img/settings_future.svg" alt="">РЕМОНТ
+      </a>
+      <a class="topnav-item active">
+        <img src="./img/color.svg" alt="">ПРАЙС ЛИСТ
+      </a>
+      <a class="topnav-item" href="./contacts.html">
+        <img src="./img/location_outline.svg" alt="">КОНТАКТЫ
+      </a>
+    </nav>
+    <div class="dropdown-btn" id="dropdown-btn" onclick="openNav()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+    <div class="dpd-bg" id="dpd">
+      <div class="dropdown" id="dropdown">
+      <div class="dropdown-content" id="dropdown-content">
+        <li id="link"><a href="./index.html" onclick="openNav()"><img src="./img/home_alt_outline.svg" alt=""> ГЛАВНАЯ</a></li>
+        <li id="link"><a href="./repair.html" onclick="openNav()"><img src="./img/settings_future.svg" alt=""> РЕМОНТ</a></li>
+        <li id="link"><a class="active" href="#" onclick="openNav()"><img src="./img/color.svg" alt=""> ПРАЙС ЛИСТ</a></li>
+        <li id="link"><a href="./contacts.html" onclick="openNav()"><img src="./img/location_outline.svg" alt=""> КОНТАКТЫ</a></li>
+        <div class="phone">
+          <a class="phone-number" href="tel:+79280000000">+7 (928) 000-00-00</a>
+          <p class="phone-descr">с 8:00 до 19:00</p>
+        </div>
+        <button class="call">ЗАКАЗАТЬ ЗВОНОК</button>
+      </div>
+  </div>
+</div>
+    <div class="phone">
+      <a class="phone-number" href="tel:+79280000000">+7 (928) 000-00-00</a>
+      <p class="phone-descr">с 8:00 до 19:00</p>
+    </div>
+    <button class="call">ЗАКАЗАТЬ ЗВОНОК</button>
+  </header>
+  <div class="price-main">
+    <h1>СКОЛЬКО СТОИТ <span>ПРОФЕССИОНАЛЬНЫЙ&nbsp;РЕМОНТ<br>КВАРТИРЫ</span> ОТ МАСТЕРОВ СВОЕГО ДЕЛА?</h1>
+  </div>
+  <div class="list">
+    <div class="list-cont">
+      <h2>Ремонт квартир цены</h2>
+      <p>Цены указаны за единицу измерения выполняемой работы. Ориентировочную стоимость ремонта квартиры за квадратный метр можно узнать по телефону <a href="tel:+79119205864">+7 (911) 920-58-64</a>. В зависимости от сложности и объемов работ, цены в смете могут отличаться от прайс-листа, поэтому мы выезжаем на объект для замера и составляем смету. Звоните или нажимайте на кнопку заказать звонок!</p>
+      <table>
+        <thead>
+          <td>Наименование</td>
+          <td>Единица измерения</td>
+          <td>Цена</td>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div class="modal"> 
+    <div class="modal-content">
+      <div class="modal-form">
+        <p>Ваше имя</p>
+        <input class="name-input" type="text" name="" id="" placeholder="Имя">
+        <p>Номер телефона</p>
+        <input class="tel-input send-input" type="tel" name="" id="" placeholder="+ 7 (928) 00-000-00">
+        <p>Ваше сообщение</p>
+          <textarea class="message-input" name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
+        <button type="submit" class="send-button">ОТПРАВИТЬ</button>
+      </div>
+      <div class="close">&times;</div>
+    </div>
+  </div>
+  <div class="write">
+    <h3>Остались вопросы? Задайте их сейчас, позвонив по телефону </h3>
+    <a class="write-tel" href="tel:+">+ 7 (928) 000-00-00</a>
+    <h4>или через форму обратной связи</h4>
+    <button class="write-btn" id="btn">НАПИСАТЬ НАМ</button>
+  </div>
+  <footer>
+    <div class="footer-cont">
+      <a href="./index.html" class="logo">ЗДЕСЬ ЛОГОТИП</a>
+      <div class="footer-item">
+        <img src="./img/mail.svg" alt="">
+        <a href="mailto:stk-azimut@mail.ru">stk-azimut@mail.ru</a>
+      </div>
+      <div class="footer-item">
+        <img src="./img/mobile_alt.svg" alt="">
+        <a href="tel:+79280000000">+7 (928) 00-000-00</a>
+      </div>
+      <div class="footer-item">
+        <p>Мы в социальных сетях:</p>
+        <img src="./img/youtube.svg" alt="">
+        <img src="./img/facebook.svg" alt="">
+        <img src="./img/instagram.svg" alt="">
+        <img src="./img/twitter.svg" alt="">
+      </div>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
